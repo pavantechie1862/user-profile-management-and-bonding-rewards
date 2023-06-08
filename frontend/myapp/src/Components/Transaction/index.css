@@ -1,0 +1,109 @@
+/* Styles for transaction-container */
+.transaction-container {
+  max-width: 1110px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  width: 70%;
+}
+
+/* Styles for transaction-input-container */
+.transaction-input-container {
+  display: flex;
+  flex-direction: column;
+  margin: 10px auto;
+  gap: 20px;
+  width: 50%;
+}
+
+@media screen and (max-width: 767px) {
+  .transaction-input-container {
+    width: 100%;
+  }
+  .transaction-container {
+    width: 80%;
+  }
+}
+
+/* Styles for transaction-username-input-field */
+.transaction-username-input-field {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #fff;
+  font-size: 14px;
+  outline: none;
+}
+
+/* Styles for transaction-amount-input-field */
+.transaction-amount-input-field {
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #fff;
+  font-size: 14px;
+  appearance: none;
+  outline: none;
+}
+
+/* Styles for transaction-dropdown */
+.transaction-dropdown {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  font-size: 14px;
+  appearance: none;
+}
+
+/* Styles for transaction-submit-button */
+.transaction-submit-button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #ea4c88;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.transaction-submit-button:hover {
+  background-color: #bf306b;
+}
+
+/* Responsive Styles */
+@media (max-width: 480px) {
+  .transaction-container {
+    max-width: 100%;
+    padding: 10px;
+  }
+}
+
+.user-name {
+  /* Styles for the option element */
+  background-color: #ea4c88;
+  color: white;
+  margin: 10px 0px !important;
+}
+
+.user-name:hover {
+  /* Styles for the option element on hover */
+  background-color: white;
+  cursor: pointer;
+  color: black;
+}
+
+.transaction-info-text {
+  color: #ea4c88;
+}
+.error-msg {
+  color: #ff0000;
+  font-size: 12px;
+}
+
+.auto-width {
+  width: 150px !important;
+  align-self: center;
+}

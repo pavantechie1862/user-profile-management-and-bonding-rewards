@@ -1,0 +1,71 @@
+/* Some common stylings  */
+
+body {
+  margin: 0px; /* Remove default margin */
+  padding: 0px; /* Remove default padding */
+  font-family: Arial, sans-serif; /* Specify a default font family */
+  font-size: 16px; /* Specify a default font size */
+  background-color: #2c3338; /* Set a background color */
+  color: #a8a2a2; /* Set a text color */
+  box-sizing: border-box;
+}
+
+::selection {
+  background-color: #ea4c88; /* Set the background color for selected text */
+  color: white; /* Set the text color for selected text */
+}
+
+p {
+  font-family: Arial, sans-serif;
+  font-size: 16px; /* Adjust the font size */
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #c0396b;
+}
+
+button {
+  border: 0px;
+  background-color: transparent;
+}
+
+.btn {
+  background-color: #ea4c88;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  border: 0px;
+  cursor: pointer;
+  margin: 10px 10px 10px 0px;
+}
+
+.btn:hover {
+  background-color: #c0396b;
+}
+
+input {
+  outline: none;
+}
+
+button:disabled {
+  background-color: #ccc;
+  color: #000;
+  cursor: not-allowed;
+}
+
+button:disabled:hover {
+  background-color: #ccc;
+}
+
+.required-icon {
+  color: #ff0000;
+}
+
+.highlight-text {
+  color: #a8114b;
+  font-style: italic;
+}

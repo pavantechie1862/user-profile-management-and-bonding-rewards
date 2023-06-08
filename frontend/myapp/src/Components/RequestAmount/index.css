@@ -1,0 +1,45 @@
+.free-amount-request-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1110px;
+  margin: 0px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.request-money-heading {
+  margin: 20px 0px;
+}
+
+.request-form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: white;
+  padding: 40px;
+  border-radius: 6px;
+  width: 50%;
+}
+
+.amount-input-field {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #2c3338 !important;
+}
+
+.note-text {
+  color: #ff0000;
+  text-align: left;
+  font-size: 12px;
+}
+
+.green-text {
+  color: #008000;
+}
+
+@media screen and (max-width: 767px) {
+  .request-form-container {
+    width: 80%;
+  }
+}

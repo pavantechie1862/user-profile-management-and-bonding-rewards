@@ -1,0 +1,12 @@
+###
+post http://localhost:3000/register
+Content-Type: application/json
+{
+    "username" : "pavan",
+    "password" : "ajdhsdf",
+    "email" : "pavan@gmail.com"
+}
+
+###
+GET http://localhost:3000/getList
+
